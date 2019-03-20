@@ -1,0 +1,80 @@
+.carousel.carousel-slider>.carousel-item{
+    background-position: center;
+    background-size: cover;
+    height: 645px;
+}
+
+.carousel.carousel-slider>.carousel-item:first-of-type{
+    background-image: url('../assest/acuaman.png');
+}
+.carousel.carousel-slider>.carousel-item:nth-of-type(2){
+    background-image: url('../assest/la-forma-del-agua-1.png');
+}
+.carousel.carousel-slider>.carousel-item:nth-of-type(3){
+    background-image: url('../assest/aladdin.png');
+}
+.carousel.carousel-slider>.carousel-item:nth-of-type(4){
+    background-image: url('../assest/avengers.png');
+}
+    
+.carousel.carousel-slider .carousel-item h2 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1100px;
+}
+.card .card-action {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    padding: 8px;
+}
+.row .col.l3{
+    left: 94px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 340px;
+    height: 590px;
+}
+.card{
+    width: 340px;
+    height: 600px;
+}
+
+.card .card-image .card-title {
+    color: rgb(185, 13, 13);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 50px;
+    padding: 0;
+    white-space: nowrap;
+    top: 6px;
+    left: 129px;
+}
+
+.teal.lighten-1{
+   background-color: purple;
+}
+.card .card-content p {
+    margin: 0px;
+    color: rgb(0, 0, 0);
+}
